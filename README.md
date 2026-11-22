@@ -60,13 +60,12 @@ I'm a Computer Science student and aspiring Full-Stack Developer interested in b
 
 ---
 
-## GitHub Achievements
 
-<div align="center">
+## 📈 Contribution Activity
 
-<img src="https://github-profile-trophy.vercel.app/?username=Muqtasid-007&theme=onestar&no-frame=true&no-bg=true&margin-w=8" width="100%" />
+[![Muqtasid's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Muqtasid-007&theme=github-compact)](https://github.com/Muqtasid-007)
 
-</div>
+
 
 ---
 
