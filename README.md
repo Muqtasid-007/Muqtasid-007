@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # Muhammad Muqtasid
@@ -45,9 +44,120 @@ I'm a Computer Science student and aspiring Full-Stack Developer interested in b
 
 ---
 
+## 📊 GitHub Activity Analytics
 
+<div align="center">
 
+<a href="https://muqtasid-007.github.io/Muqtasid-007/"><b>▶ Open the interactive dashboard</b></a> &nbsp;·&nbsp; filters, custom dates and hover tooltips
 
+</div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/heatmap-dark.svg">
+  <img alt="Contribution heatmap for the last 12 months" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/heatmap-light.svg" width="100%">
+</picture>
+
+<details open>
+<summary><b>Month</b> (last 30 days)</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/stats-month-dark.svg">
+  <img alt="Month: contribution stats" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/stats-month-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/trend-month-dark.svg">
+  <img alt="Month: activity trend by type" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/trend-month-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/repos-month-dark.svg">
+  <img alt="Month: repository breakdown" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/repos-month-light.svg" width="100%">
+</picture>
+
+</details>
+
+<details>
+<summary><b>Day</b> (today vs yesterday)</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/stats-day-dark.svg">
+  <img alt="Day: contribution stats" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/stats-day-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/trend-day-dark.svg">
+  <img alt="Day: activity trend by type" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/trend-day-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/repos-day-dark.svg">
+  <img alt="Day: repository breakdown" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/repos-day-light.svg" width="100%">
+</picture>
+
+</details>
+
+<details>
+<summary><b>Week</b> (last 7 days)</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/stats-week-dark.svg">
+  <img alt="Week: contribution stats" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/stats-week-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/trend-week-dark.svg">
+  <img alt="Week: activity trend by type" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/trend-week-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/repos-week-dark.svg">
+  <img alt="Week: repository breakdown" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/repos-week-light.svg" width="100%">
+</picture>
+
+</details>
+
+<details>
+<summary><b>Year</b> (last 365 days)</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/stats-year-dark.svg">
+  <img alt="Year: contribution stats" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/stats-year-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/trend-year-dark.svg">
+  <img alt="Year: activity trend by type" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/trend-year-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/repos-year-dark.svg">
+  <img alt="Year: repository breakdown" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/repos-year-light.svg" width="100%">
+</picture>
+
+</details>
+
+<details>
+<summary><b>Custom range</b> (set in config.json or by running the workflow manually)</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/stats-custom-dark.svg">
+  <img alt="Custom range: contribution stats" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/stats-custom-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/trend-custom-dark.svg">
+  <img alt="Custom range: activity trend by type" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/trend-custom-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/repos-custom-dark.svg">
+  <img alt="Custom range: repository breakdown" src="https://raw.githubusercontent.com/Muqtasid-007/Muqtasid-007/output/svg/repos-custom-light.svg" width="100%">
+</picture>
+
+</details>
+
+<sub>Times are UTC. Totals count commits, PRs, issues and reviews only, so they can differ slightly from GitHub's own graph. Updated every 6 hours.</sub>
 
 ---
 
