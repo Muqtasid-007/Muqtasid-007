@@ -1,0 +1,54 @@
+name: Update contribution dashboard
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'      # every 6 hours (UTC)
+  workflow_dispatch:           # "Run workflow" button, with an optional custom range
+    inputs:
+      start:
+        description: 'Custom range start (YYYY-MM-DD)'
+        required: false
+      end:
+        description: 'Custom range end (YYYY-MM-DD)'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dashboard
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # If the math is broken, stop here and keep yesterday's images published.
+      - name: Run tests
+        run: npm test
+
+      - name: Build dashboard (fetch data and draw images)
+        run: node scripts/build.js
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+          RANGE_START: ${{ inputs.start }}
+          RANGE_END: ${{ inputs.end }}
+
+      # Publishes dist/ to the "output" branch as a single commit by a bot,
+      # so your own dashboard never counts as your activity.
+      - name: Publish dist/ to the output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: true
+          user_name: 'dashboard-bot'
+          user_email: 'dashboard-bot@users.noreply.github.com'

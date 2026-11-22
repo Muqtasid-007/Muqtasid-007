@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-11-22T06:00:00Z",
+  "login": "me",
+  "timezone": "UTC",
+  "createdAt": "2025-01-01T00:00:00Z",
+  "rows": [
+    { "date": "2026-10-30", "repo": "me/alpha", "commits": 2, "prs": 0, "issues": 0, "reviews": 0 },
+    { "date": "2026-10-31", "repo": "me/alpha", "commits": 1, "prs": 0, "issues": 0, "reviews": 1 },
+    { "date": "2026-11-01", "repo": "me/alpha", "commits": 3, "prs": 0, "issues": 0, "reviews": 0 },
+    { "date": "2026-11-02", "repo": "me/beta", "commits": 0, "prs": 1, "issues": 0, "reviews": 0 },
+    { "date": "2026-11-10", "repo": "me/alpha", "commits": 5, "prs": 0, "issues": 1, "reviews": 0 },
+    { "date": "2026-11-18", "repo": "me/alpha", "commits": 4, "prs": 0, "issues": 0, "reviews": 0 },
+    { "date": "2026-11-19", "repo": "me/alpha", "commits": 2, "prs": 0, "issues": 0, "reviews": 0 },
+    { "date": "2026-11-19", "repo": "me/beta", "commits": 0, "prs": 0, "issues": 0, "reviews": 2 },
+    { "date": "2026-11-20", "repo": "me/alpha", "commits": 1, "prs": 0, "issues": 0, "reviews": 0 },
+    { "date": "2026-11-21", "repo": "Private repositories", "commits": 2, "prs": 0, "issues": 0, "reviews": 0 }
+  ]
+}

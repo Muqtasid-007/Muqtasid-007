@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contribution analytics</title>
+  <meta name="description" content="Interactive GitHub contribution analytics: filters, heatmap, streaks, comparisons and repository breakdown.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top">
+    <div class="wrap top-inner">
+      <div>
+        <h1 id="pageTitle">Contribution analytics</h1>
+        <p class="muted" id="updated">Loading data…</p>
+      </div>
+      <button id="themeBtn" class="btn" type="button" aria-label="Change theme">Theme: Auto</button>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <div id="demoBanner" class="banner" hidden>You are looking at demo data. Real numbers appear after the workflow runs with your token.</div>
+    <div id="errorBox" class="banner error" role="alert" hidden></div>
+
+    <section class="controls" aria-label="Filters">
+      <div class="segmented" id="periods" role="group" aria-label="Period">
+        <button type="button" data-period="day">Day</button>
+        <button type="button" data-period="week">Week</button>
+        <button type="button" data-period="month">Month</button>
+        <button type="button" data-period="year">Year</button>
+        <button type="button" data-period="custom">Custom</button>
+      </div>
+
+      <div id="customPanel" class="custom" hidden>
+        <label>From <input type="date" id="customFrom"></label>
+        <label>To <input type="date" id="customTo"></label>
+        <button type="button" class="btn primary" id="applyCustom">Apply range</button>
+      </div>
+
+      <div class="chips" id="typeChips" role="group" aria-label="Contribution types"></div>
+
+      <label class="switch">
+        <input type="checkbox" id="compareToggle" checked>
+        <span>Show previous period on the chart</span>
+      </label>
+    </section>
+
+    <section id="cards" class="cards" aria-live="polite" aria-label="Summary"></section>
+
+    <section class="panel" aria-labelledby="heatTitle">
+      <h2 id="heatTitle">Contribution heatmap</h2>
+      <p class="muted" id="heatNote"></p>
+      <div class="scroll" id="heatScroll"><div id="heatmap"></div></div>
+    </section>
+
+    <section class="panel" aria-labelledby="trendTitle">
+      <h2 id="trendTitle">Activity trend</h2>
+      <p class="muted" id="trendNote"></p>
+      <div class="scroll"><div id="trend"></div></div>
+    </section>
+
+    <section class="panel" aria-labelledby="repoTitle">
+      <h2 id="repoTitle">Repository breakdown</h2>
+      <div class="scroll"><div id="repoBars"></div></div>
+      <div class="scroll table-wrap">
+        <table id="repoTable"></table>
+      </div>
+    </section>
+
+    <p class="muted fine">All dates are UTC. Totals count commits, pull requests, issues and reviews only, so they can differ slightly from GitHub's own graph. Streaks and the most productive day and month look at your recent history and ignore the period filter.</p>
+  </main>
+
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

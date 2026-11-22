@@ -1,0 +1,14 @@
+{
+  "name": "github-contribution-dashboard",
+  "version": "1.0.0",
+  "description": "GitHub contribution analytics for a profile README (static SVGs + interactive GitHub Pages site)",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node scripts/build.js --demo",
+    "build": "node scripts/build.js",
+    "serve": "node scripts/serve.js"
+  }
+}
